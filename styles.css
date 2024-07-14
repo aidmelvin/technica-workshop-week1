@@ -1,14 +1,8 @@
-/* Importing CSS into HTML */
-/* body {
-    margin: 0;
-    padding: 0;
-} */
 
 header {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,11 +30,7 @@ footer {
     justify-content: center;
 }
 
-/* ID vs Class attributes */
+/* unique ID attribute */
 #uniqueElement {
     color: red;
-}
-
-.classElement {
-    color: blue;
 }

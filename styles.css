@@ -1,0 +1,46 @@
+/* Importing CSS into HTML */
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+}
+
+#main {
+    padding: 20px;
+}
+
+/* Flexbox layout */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* ID vs Class attributes */
+#uniqueElement {
+    color: red;
+}
+
+.classElement {
+    color: blue;
+}
